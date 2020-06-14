@@ -1,0 +1,26 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	   double s = 66.8;
+	   char students = max (s);
+	  	System.out.println(students);
+	}
+	public static char max  (double t){
+	    if (t>=90)
+	    return 'A';
+	    
+	    else if (t>=80)
+	    return 'B';
+	    
+	     else if (t>=70)
+	     return 'C';
+	     
+	      else if (t>=60)
+	    return 'D';
+	    
+	    else
+	    return 'F';
+	 	}
+
+}
